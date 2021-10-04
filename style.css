@@ -100,3 +100,36 @@ img {
     margin: 15px auto;
   }
 }
+
+@media screen and (min-width: 421px) and (max-width:1024px){
+
+  #lezioni .row>.left,
+  #lezioni .row>.right{
+  max-width: 48%;
+  float: left;
+  margin: 15px auto;
+  font-size: 16px;
+  padding: 0 3px;
+}
+
+.row{
+  max-width: 100%;
+  margin-top: 0px;
+  padding-top: 50px;
+
+}
+  #lezioni .row>.left img,
+  #lezioni .row>.right img {
+  
+  max-width: 90%;
+}
+
+#steps .row>.left,
+#steps .row>.central,
+#steps .row>.right{
+  display: block;
+  width: 100%;
+  float: none;
+  margin: 15px auto;
+}
+}
