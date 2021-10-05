@@ -82,6 +82,9 @@ img {
     float: none;
     margin: 15px auto;
   }
+  body{
+    margin: 0;
+  }
 
   .row{
     max-width: 100%;
@@ -120,6 +123,10 @@ img {
     margin: 15px auto;
     font-size: 16px;
     padding: 0 3px;
+  }
+
+  body{
+    margin: 0;
   }
 
   .row{
